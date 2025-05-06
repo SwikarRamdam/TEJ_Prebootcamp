@@ -24,3 +24,6 @@ function howEqual(a, b) {
 }
 check = howEqual(0, '0'); // => loosely
 console.log(check);
+check = howEqual(3, 9/3); // => strictly
+console.log(check);
+check = howEqual(true, 'truthy') // => not equal    
