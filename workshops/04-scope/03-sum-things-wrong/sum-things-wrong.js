@@ -1,8 +1,8 @@
 let sum = 0;
 
 function sumThingsWrong(num1, num2) {
-  sum += num1;
-  sum += num2;
-
-  return sum;
+  return num1 + num2;
 }
+check = sumThingsWrong(1, 2);
+console.log(check); // => 3
+
